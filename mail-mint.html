@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mail Mint — Email Marketing & Automation for WooCommerce</title>
+  <meta name="description" content="Mail Mint is email marketing automation built for WooCommerce. Recover abandoned carts, nurture leads, and send targeted campaigns — all from WordPress.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav">
+        <a href="/" class="nav__logo">
+          <span class="nav__logo-icon" style="background: var(--orange);">M</span>
+          Mail Mint
+        </a>
+
+        <div class="nav__links">
+          <div class="nav__link nav__link--has-dropdown">
+            Products
+            <div class="nav__dropdown">
+              <a href="wpfunnels.html" class="nav__dropdown-item">
+                WPFunnels
+                <small>Funnel builder for WooCommerce</small>
+              </a>
+              <a href="mail-mint.html" class="nav__dropdown-item">
+                Mail Mint
+                <small>Email automation for WooCommerce</small>
+              </a>
+            </div>
+          </div>
+          <a href="#features" class="nav__link">Features</a>
+          <a href="#" class="nav__link">Templates</a>
+          <a href="#" class="nav__link">Pricing</a>
+          <a href="#" class="nav__link">Docs</a>
+          <a href="#" class="btn btn--orange nav__cta">Start Free</a>
+        </div>
+
+        <button class="nav__toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ PRODUCT HERO ============ -->
+  <section class="product-hero product-hero--orange">
+    <div class="container">
+      <div class="product-hero__grid">
+        <div class="product-hero__content">
+          <span class="tag tag--orange">Mail Mint</span>
+          <h1>Email Automation That Knows Your WooCommerce Customers</h1>
+          <p>
+            Send the right email at the right time — triggered by what your customers actually do. Recover abandoned carts, nurture leads, and drive repeat purchases on autopilot.
+          </p>
+          <div class="btn-group">
+            <a href="#" class="btn btn--orange btn--lg">
+              Start Free
+              <span class="arrow">&rarr;</span>
+            </a>
+            <a href="#features" class="btn btn--secondary btn--lg">
+              See All Features
+            </a>
+          </div>
+          <div class="hero__proof mt-24">
+            <div class="hero__proof-item">
+              <span class="hero__proof-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              Rated 4.8/5
+            </div>
+            <span class="hero__proof-sep"></span>
+            <div class="hero__proof-item">
+              Free version on WordPress.org
+            </div>
+          </div>
+        </div>
+        <div class="product-hero__image">
+          <div class="mockup">
+            <div class="mockup__toolbar">
+              <div class="mockup__dots">
+                <span class="mockup__dot mockup__dot--red"></span>
+                <span class="mockup__dot mockup__dot--yellow"></span>
+                <span class="mockup__dot mockup__dot--green"></span>
+              </div>
+              <div class="mockup__url">yourstore.com/wp-admin &mdash; Mail Mint</div>
+            </div>
+            <div class="mockup__body" style="min-height: 320px;">
+              <div class="mockup__canvas" style="padding: 24px;">
+                <div class="mockup__canvas-header">
+                  <div class="mockup__canvas-title">Cart Recovery Automation</div>
+                  <div class="mockup__canvas-actions">
+                    <span class="mockup__canvas-btn mockup__canvas-btn--ghost" style="border-color: var(--orange); color: var(--orange);">Draft</span>
+                    <span class="mockup__canvas-btn" style="background: var(--orange);">Activate</span>
+                  </div>
+                </div>
+                <div class="mockup__flow">
+                  <div class="mockup__node mockup__node--active" style="border-color: var(--orange);">
+                    <div class="mockup__node-icon" style="background: var(--orange-light);">&#128722;</div>
+                    <div class="mockup__node-label">Cart Abandoned</div>
+                    <div class="mockup__node-sub">Trigger</div>
+                  </div>
+                  <div class="mockup__connector"></div>
+                  <div class="mockup__node">
+                    <div class="mockup__node-icon" style="background: #FEF3C7;">&#9202;</div>
+                    <div class="mockup__node-label">Wait 1 Hour</div>
+                    <div class="mockup__node-sub">Delay</div>
+                  </div>
+                  <div class="mockup__connector"></div>
+                  <div class="mockup__node">
+                    <div class="mockup__node-icon" style="background: #DBEAFE;">&#9993;</div>
+                    <div class="mockup__node-label">Send Email</div>
+                    <div class="mockup__node-sub">Reminder #1</div>
+                  </div>
+                  <div class="mockup__connector"></div>
+                  <div class="mockup__node">
+                    <div class="mockup__node-icon" style="background: var(--green-light);">&#127873;</div>
+                    <div class="mockup__node-label">Send Coupon</div>
+                    <div class="mockup__node-sub">10% off email</div>
+                  </div>
+                </div>
+                <div class="mockup__stats">
+                  <div class="mockup__stat-card">
+                    <div class="mockup__stat-label">Emails Sent</div>
+                    <div class="mockup__stat-value">1,204</div>
+                    <div class="mockup__stat-change">&#9650; 18.2%</div>
+                  </div>
+                  <div class="mockup__stat-card">
+                    <div class="mockup__stat-label">Open Rate</div>
+                    <div class="mockup__stat-value">42.8%</div>
+                    <div class="mockup__stat-change">&#9650; 5.1%</div>
+                  </div>
+                  <div class="mockup__stat-card">
+                    <div class="mockup__stat-label">Recovered</div>
+                    <div class="mockup__stat-value">$8,340</div>
+                    <div class="mockup__stat-change">&#9650; 31.4%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THE PROBLEM ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header fade-in">
+        <span class="tag tag--orange">Why Mail Mint</span>
+        <h2>Your Customers Buy Once. Then They Disappear.</h2>
+        <p>Without automated follow-ups, you're paying to acquire customers who never come back. Mail Mint fixes that by turning one-time buyers into repeat customers.</p>
+      </div>
+
+      <div class="stats fade-in">
+        <div class="stat">
+          <div class="stat__number">70%</div>
+          <div class="stat__label">of carts are abandoned</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">5x</div>
+          <div class="stat__label">cheaper to retain vs. acquire</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">$42</div>
+          <div class="stat__label">ROI per $1 spent on email</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KEY FEATURES ============ -->
+  <section class="section section--gray" id="features">
+    <div class="container">
+      <div class="section__header fade-in">
+        <span class="tag tag--orange">Features</span>
+        <h2>Everything You Need to Automate WooCommerce Email</h2>
+      </div>
+
+      <div class="cards-grid fade-in">
+        <div class="card">
+          <div class="card__icon card__icon--orange">&#9889;</div>
+          <h3>Visual Automation Builder</h3>
+          <p>Build automation workflows visually. Drag and drop triggers, conditions, delays, and email actions on a canvas.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon card__icon--orange">&#128722;</div>
+          <h3>Abandoned Cart Recovery</h3>
+          <p>Automatically detect abandoned carts and send a recovery sequence. Bring back buyers with timed reminders and discount offers.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon card__icon--orange">&#9993;</div>
+          <h3>Email Campaign Builder</h3>
+          <p>Create beautiful email campaigns with a visual drag-and-drop editor. Pre-built templates for promotions, newsletters, and announcements.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon card__icon--orange">&#128101;</div>
+          <h3>Contact Management</h3>
+          <p>360-degree customer profiles with purchase history, email engagement, funnel activity, and custom tags — all in one place.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon card__icon--orange">&#127919;</div>
+          <h3>Smart Segmentation</h3>
+          <p>Segment contacts by purchase behavior, engagement level, tags, or custom fields. Send targeted emails that convert.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon card__icon--orange">&#129302;</div>
+          <h3>AI Email Writing</h3>
+          <p>Connect with ChatGPT to generate email subject lines, body copy, and CTAs. Write better emails in less time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURE: AUTOMATION BUILDER ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="feature-block fade-in">
+        <div class="feature-block__content">
+          <span class="tag tag--orange">Core Feature</span>
+          <h2>Visual Email Automation Workflows</h2>
+          <p>Build complex automation sequences with a simple drag-and-drop interface. Trigger emails based on WooCommerce events — purchases, cart abandonment, subscriptions, and more.</p>
+          <ul class="feature-block__list">
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              WooCommerce-native triggers: purchase, refund, subscription renewal, cart abandon
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Conditional branching — send different emails based on cart value, product, or tag
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Time delays, wait conditions, and goal tracking
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Pre-built automation recipes for common WooCommerce flows
+            </li>
+          </ul>
+        </div>
+        <div class="feature-block__image">
+          <div class="screenshot-placeholder">
+            [ Automation Workflow Builder Screenshot ]
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURE: ABANDONED CART ============ -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="feature-block feature-block--reverse fade-in">
+        <div class="feature-block__content">
+          <span class="tag tag--orange">Revenue Recovery</span>
+          <h2>Recover Abandoned Carts Automatically</h2>
+          <p>70% of shoppers abandon their cart. Mail Mint detects abandoned carts in WooCommerce and sends a timed recovery sequence to bring them back.</p>
+          <ul class="feature-block__list">
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Auto-detect abandoned carts for both guests and logged-in users
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Multi-email recovery sequences with escalating incentives
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Include dynamic cart contents and discount codes in emails
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Track recovered revenue per automation
+            </li>
+          </ul>
+        </div>
+        <div class="feature-block__image">
+          <div class="screenshot-placeholder">
+            [ Abandoned Cart Recovery Screenshot ]
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURE: EMAIL BUILDER ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="feature-block fade-in">
+        <div class="feature-block__content">
+          <span class="tag tag--orange">Email Builder</span>
+          <h2>Drag-and-Drop Email Editor</h2>
+          <p>Build beautiful, responsive emails without touching code. Use pre-built templates or start from scratch with a visual block editor.</p>
+          <ul class="feature-block__list">
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Visual drag-and-drop blocks: text, images, buttons, columns, dividers
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Dynamic merge tags for personalized content
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Mobile-responsive out of the box
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Ready-to-use templates for promotions, welcome series, and more
+            </li>
+          </ul>
+        </div>
+        <div class="feature-block__image">
+          <div class="screenshot-placeholder">
+            [ Email Builder Screenshot ]
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURE: CONTACT MANAGEMENT ============ -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="feature-block feature-block--reverse fade-in">
+        <div class="feature-block__content">
+          <span class="tag tag--orange">CRM</span>
+          <h2>Know Every Customer Inside Out</h2>
+          <p>Get a 360-degree view of every contact. See their purchase history, email engagement, funnel interactions, and lifetime value — all in one profile.</p>
+          <ul class="feature-block__list">
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Complete purchase history from WooCommerce
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Email open, click, and engagement tracking
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Custom tags, lists, and segments for targeted campaigns
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Lead capture forms with custom fields
+            </li>
+          </ul>
+        </div>
+        <div class="feature-block__image">
+          <div class="screenshot-placeholder">
+            [ Contact Profile Screenshot ]
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT YOU CAN AUTOMATE ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header fade-in">
+        <span class="tag tag--orange">Use Cases</span>
+        <h2>Automations That Run While You Sleep</h2>
+        <p>Set it up once, let it work forever. Here are the most popular automations WooCommerce store owners build with Mail Mint.</p>
+      </div>
+
+      <div class="cards-grid fade-in">
+        <div class="card">
+          <div class="card__icon card__icon--orange">&#128722;</div>
+          <h3>Abandoned Cart Recovery</h3>
+          <p>3-email sequence with dynamic cart contents and escalating discounts. Recover 10-15% of abandoned revenue.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon card__icon--orange">&#128075;</div>
+          <h3>Welcome Series</h3>
+          <p>Introduce new subscribers to your brand. Share your story, best sellers, and a first-purchase incentive.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon card__icon--orange">&#128230;</div>
+          <h3>Post-Purchase Follow-Up</h3>
+          <p>Thank buyers, ask for reviews, cross-sell related products, and drive repeat purchases automatically.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon card__icon--orange">&#128148;</div>
+          <h3>Win-Back Campaigns</h3>
+          <p>Re-engage customers who haven't purchased in 30, 60, or 90 days with targeted re-engagement offers.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon card__icon--orange">&#127873;</div>
+          <h3>Birthday &amp; Anniversary</h3>
+          <p>Send personalized discount codes on customer birthdays or purchase anniversaries to drive loyalty.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon card__icon--orange">&#128640;</div>
+          <h3>Product Launch Sequences</h3>
+          <p>Build anticipation with a multi-email launch sequence. Tease, announce, and follow up — all automated.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORKS WITH WPFUNNELS ============ -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="highlight-box fade-in">
+        <span class="tag">Better Together</span>
+        <h3 class="mt-16">Pair Mail Mint With WPFunnels for Full-Stack Growth</h3>
+        <p>Capture leads and drive sales with WPFunnels' conversion-optimized funnels. Then nurture and retain those customers with Mail Mint's email automation. The complete WooCommerce growth engine.</p>
+        <div class="btn-group" style="justify-content: center;">
+          <a href="wpfunnels.html" class="btn btn--primary">
+            Explore WPFunnels
+            <span class="arrow">&rarr;</span>
+          </a>
+          <a href="#" class="btn btn--secondary">View Bundle Pricing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INTEGRATIONS ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header fade-in">
+        <span class="tag tag--orange">Integrations</span>
+        <h2>Plays Nice With Your Existing Stack</h2>
+        <p>Mail Mint connects with the tools you already use for your WooCommerce store.</p>
+      </div>
+
+      <div class="integrations-grid fade-in">
+        <div class="integration-badge">&#9679; WooCommerce</div>
+        <div class="integration-badge">&#9679; WPFunnels</div>
+        <div class="integration-badge">&#9679; Elementor</div>
+        <div class="integration-badge">&#9679; WPForms</div>
+        <div class="integration-badge">&#9679; Zapier</div>
+        <div class="integration-badge">&#9679; Amazon SES</div>
+        <div class="integration-badge">&#9679; SendGrid</div>
+        <div class="integration-badge">&#9679; Mailgun</div>
+        <div class="integration-badge">&#9679; ChatGPT</div>
+        <div class="integration-badge">&#9679; Postmark</div>
+        <div class="integration-badge">&#9679; SparkPost</div>
+        <div class="integration-badge">&#9679; Webhook</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="section__header fade-in">
+        <h2>What Store Owners Say</h2>
+      </div>
+
+      <div class="testimonials-grid fade-in">
+        <div class="testimonial">
+          <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial__quote">"We switched from Mailchimp and saved hundreds per month. Mail Mint gives us everything we need right inside WordPress — and it actually knows our WooCommerce data."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">AA</div>
+            <div>
+              <div class="testimonial__name">Alston Antony</div>
+              <div class="testimonial__role">Store Owner</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial__quote">"The abandoned cart recovery alone paid for itself in the first week. Super easy to set up and the emails look professional out of the box."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">AM</div>
+            <div>
+              <div class="testimonial__name">Augustine Mak</div>
+              <div class="testimonial__role">WooCommerce Store Owner</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial__quote">"Finally an email tool that actually integrates with WooCommerce properly. Contact profiles show real purchase data, not just email opens."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">SB</div>
+            <div>
+              <div class="testimonial__name">Simeon Benevrekov</div>
+              <div class="testimonial__role">Digital Marketer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMPARISON ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header fade-in">
+        <span class="tag tag--orange">Why Switch</span>
+        <h2>Mail Mint vs. External Email Tools</h2>
+        <p>Stop paying monthly fees to tools that don't understand your WooCommerce data.</p>
+      </div>
+
+      <div class="fade-in" style="overflow-x: auto;">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th class="highlight-col">Mail Mint</th>
+              <th>Mailchimp</th>
+              <th>Klaviyo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Lives inside WordPress</td>
+              <td class="highlight-col"><span class="check">&#10003;</span></td>
+              <td><span class="cross">&#10005;</span></td>
+              <td><span class="cross">&#10005;</span></td>
+            </tr>
+            <tr>
+              <td>Native WooCommerce data</td>
+              <td class="highlight-col"><span class="check">&#10003;</span></td>
+              <td>Limited sync</td>
+              <td><span class="check">&#10003;</span></td>
+            </tr>
+            <tr>
+              <td>Visual automation builder</td>
+              <td class="highlight-col"><span class="check">&#10003;</span></td>
+              <td><span class="check">&#10003;</span></td>
+              <td><span class="check">&#10003;</span></td>
+            </tr>
+            <tr>
+              <td>Abandoned cart recovery</td>
+              <td class="highlight-col"><span class="check">&#10003;</span></td>
+              <td>Paid only</td>
+              <td><span class="check">&#10003;</span></td>
+            </tr>
+            <tr>
+              <td>Funnel builder integration</td>
+              <td class="highlight-col"><span class="check">&#10003;</span> WPFunnels</td>
+              <td><span class="cross">&#10005;</span></td>
+              <td><span class="cross">&#10005;</span></td>
+            </tr>
+            <tr>
+              <td>You own your data</td>
+              <td class="highlight-col"><span class="check">&#10003;</span></td>
+              <td><span class="cross">&#10005;</span></td>
+              <td><span class="cross">&#10005;</span></td>
+            </tr>
+            <tr>
+              <td>AI email writing</td>
+              <td class="highlight-col"><span class="check">&#10003;</span></td>
+              <td><span class="check">&#10003;</span></td>
+              <td><span class="check">&#10003;</span></td>
+            </tr>
+            <tr>
+              <td>Pricing</td>
+              <td class="highlight-col"><strong>Free + affordable Pro</strong></td>
+              <td>$13/mo+ (scales fast)</td>
+              <td>$20/mo+ (scales fast)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="cta-section">
+        <h2>Stop Losing Customers After the First Sale</h2>
+        <p style="color: rgba(255,255,255,0.7); max-width: 550px; margin: 0 auto 32px;">
+          Free version on WordPress.org. Pro unlocks abandoned cart recovery, advanced automation, and unlimited contacts.
+        </p>
+        <div class="btn-group" style="justify-content: center;">
+          <a href="#" class="btn btn--orange btn--lg">
+            Start Free
+            <span class="arrow">&rarr;</span>
+          </a>
+          <a href="#" class="btn btn--ghost btn--lg" style="color: rgba(255,255,255,0.9); border: 2px solid rgba(255,255,255,0.3);">
+            View Pricing
+          </a>
+        </div>
+        <div class="cta-trust mt-24" style="color: rgba(255,255,255,0.6);">
+          <span class="cta-trust__item"><span class="cta-trust__check">&#10003;</span> 15-day money-back guarantee</span>
+          <span class="cta-trust__item"><span class="cta-trust__check">&#10003;</span> No credit card for free version</span>
+          <span class="cta-trust__item"><span class="cta-trust__check">&#10003;</span> Your data stays on your server</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="footer__logo-icon" style="background: var(--orange);">M</span>
+            Mail Mint
+          </div>
+          <p>Email marketing and automation built specifically for WooCommerce store owners. Own your data. Own your emails.</p>
+        </div>
+
+        <div class="footer__col">
+          <h4>Product</h4>
+          <a href="wpfunnels.html">WPFunnels</a>
+          <a href="mail-mint.html">Mail Mint</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Templates</a>
+          <a href="#">Integrations</a>
+        </div>
+
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <a href="#">Documentation</a>
+          <a href="#">Blog</a>
+          <a href="#">Video Tutorials</a>
+          <a href="#">Changelog</a>
+          <a href="#">Roadmap</a>
+        </div>
+
+        <div class="footer__col">
+          <h4>Company</h4>
+          <a href="#">Contact Us</a>
+          <a href="#">Affiliate Program</a>
+          <a href="#">Community</a>
+          <a href="#">Support</a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>&copy; 2026 Mail Mint. All rights reserved.</span>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

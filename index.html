@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WPFunnels — Sales Funnel & Email Automation for WooCommerce</title>
+  <meta name="description" content="Build high-converting sales funnels, automate email follow-ups, and increase WooCommerce revenue — all from your WordPress dashboard.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav">
+        <a href="/" class="nav__logo">
+          <span class="nav__logo-icon">W</span>
+          WPFunnels
+        </a>
+
+        <div class="nav__links">
+          <div class="nav__link nav__link--has-dropdown">
+            Products
+            <div class="nav__dropdown">
+              <a href="wpfunnels.html" class="nav__dropdown-item">
+                WPFunnels
+                <small>Funnel builder for WooCommerce</small>
+              </a>
+              <a href="mail-mint.html" class="nav__dropdown-item">
+                Mail Mint
+                <small>Email automation for WooCommerce</small>
+              </a>
+            </div>
+          </div>
+          <a href="#features" class="nav__link">Features</a>
+          <a href="#" class="nav__link">Templates</a>
+          <a href="#" class="nav__link">Pricing</a>
+          <a href="#" class="nav__link">Docs</a>
+          <a href="#" class="btn btn--primary nav__cta">Start Free</a>
+        </div>
+
+        <button class="nav__toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__tag">
+        <span class="tag">The #1 Funnel Suite for WooCommerce</span>
+      </div>
+
+      <h1>Sell More From Your WooCommerce Store</h1>
+
+      <p class="hero__sub">
+        Build high-converting funnels, recover abandoned carts, and automate email follow-ups — without leaving WordPress.
+      </p>
+
+      <div class="hero__cta">
+        <a href="#" class="btn btn--primary btn--lg">
+          Start Free
+          <span class="arrow">&rarr;</span>
+        </a>
+        <a href="#how-it-works" class="btn btn--secondary btn--lg">
+          See How It Works
+        </a>
+      </div>
+
+      <div class="hero__proof">
+        <div class="hero__proof-item">
+          <span class="hero__proof-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          100+ five-star reviews
+        </div>
+        <span class="hero__proof-sep"></span>
+        <div class="hero__proof-item">
+          10,000+ WooCommerce stores
+        </div>
+        <span class="hero__proof-sep"></span>
+        <div class="hero__proof-item">
+          15-day money-back guarantee
+        </div>
+      </div>
+
+      <div class="hero__image fade-in">
+        <div class="hero__screenshot">
+          <div class="mockup">
+            <div class="mockup__toolbar">
+              <div class="mockup__dots">
+                <span class="mockup__dot mockup__dot--red"></span>
+                <span class="mockup__dot mockup__dot--yellow"></span>
+                <span class="mockup__dot mockup__dot--green"></span>
+              </div>
+              <div class="mockup__url">yourstore.com/wp-admin &mdash; WPFunnels</div>
+            </div>
+            <div class="mockup__body">
+              <div class="mockup__sidebar">
+                <div class="mockup__sidebar-brand">
+                  <span class="mockup__sidebar-icon">W</span>
+                  WPFunnels
+                </div>
+                <div class="mockup__sidebar-nav">
+                  <div class="mockup__sidebar-item"><span class="mockup__sidebar-item-icon"></span> Dashboard</div>
+                  <div class="mockup__sidebar-item mockup__sidebar-item--active"><span class="mockup__sidebar-item-icon"></span> Funnels</div>
+                  <div class="mockup__sidebar-item"><span class="mockup__sidebar-item-icon"></span> Templates</div>
+                  <div class="mockup__sidebar-item"><span class="mockup__sidebar-item-icon"></span> Analytics</div>
+                  <div class="mockup__sidebar-item"><span class="mockup__sidebar-item-icon"></span> A/B Tests</div>
+                  <div class="mockup__sidebar-item"><span class="mockup__sidebar-item-icon"></span> Settings</div>
+                </div>
+              </div>
+              <div class="mockup__canvas">
+                <div class="mockup__canvas-header">
+                  <div class="mockup__canvas-title">Product Launch Funnel</div>
+                  <div class="mockup__canvas-actions">
+                    <span class="mockup__canvas-btn mockup__canvas-btn--ghost">Preview</span>
+                    <span class="mockup__canvas-btn">Publish</span>
+                  </div>
+                </div>
+                <div class="mockup__flow">
+                  <div class="mockup__node mockup__node--active">
+                    <div class="mockup__node-icon mockup__node-icon--landing">&#128196;</div>
+                    <div class="mockup__node-label">Landing Page</div>
+                    <div class="mockup__node-sub">Opt-in Form</div>
+                  </div>
+                  <div class="mockup__connector"></div>
+                  <div class="mockup__node">
+                    <div class="mockup__node-icon mockup__node-icon--checkout">&#128722;</div>
+                    <div class="mockup__node-label">Checkout</div>
+                    <div class="mockup__node-sub">+ Order Bump</div>
+                  </div>
+                  <div class="mockup__connector"></div>
+                  <div class="mockup__node">
+                    <div class="mockup__node-icon mockup__node-icon--upsell">&#9889;</div>
+                    <div class="mockup__node-label">Upsell</div>
+                    <div class="mockup__node-sub">One-click offer</div>
+                  </div>
+                  <div class="mockup__connector"></div>
+                  <div class="mockup__node">
+                    <div class="mockup__node-icon mockup__node-icon--thankyou">&#10003;</div>
+                    <div class="mockup__node-label">Thank You</div>
+                    <div class="mockup__node-sub">Confirmation</div>
+                  </div>
+                </div>
+                <div class="mockup__stats">
+                  <div class="mockup__stat-card">
+                    <div class="mockup__stat-label">Visitors</div>
+                    <div class="mockup__stat-value">2,847</div>
+                    <div class="mockup__stat-change">&#9650; 12.3%</div>
+                  </div>
+                  <div class="mockup__stat-card">
+                    <div class="mockup__stat-label">Conversions</div>
+                    <div class="mockup__stat-value">384</div>
+                    <div class="mockup__stat-change">&#9650; 8.7%</div>
+                  </div>
+                  <div class="mockup__stat-card">
+                    <div class="mockup__stat-label">Revenue</div>
+                    <div class="mockup__stat-value">$12,490</div>
+                    <div class="mockup__stat-change">&#9650; 23.1%</div>
+                  </div>
+                  <div class="mockup__stat-card">
+                    <div class="mockup__stat-label">Conv. Rate</div>
+                    <div class="mockup__stat-value">13.5%</div>
+                    <div class="mockup__stat-change">&#9650; 2.4%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOGO BAR ============ -->
+  <section class="logo-bar">
+    <div class="container">
+      <p class="logo-bar__label">Built specifically for WooCommerce &amp; your favorite tools</p>
+      <div class="logo-bar__logos">
+        <span class="logo-bar__item">WooCommerce</span>
+        <span class="logo-bar__item">Elementor</span>
+        <span class="logo-bar__item">Divi</span>
+        <span class="logo-bar__item">Gutenberg</span>
+        <span class="logo-bar__item">Bricks</span>
+        <span class="logo-bar__item">Oxygen</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THE PROBLEM ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header fade-in">
+        <span class="tag">The Problem</span>
+        <h2>Your WooCommerce Store Is Leaving Money on the Table</h2>
+        <p>Most stores send every visitor to the same product page and hope for the best. No upsells, no follow-ups, no optimized checkout. That's revenue you're losing every day.</p>
+      </div>
+
+      <div class="cards-grid fade-in">
+        <div class="card">
+          <div class="card__icon">&#128722;</div>
+          <h3>70% Cart Abandonment</h3>
+          <p>7 out of 10 shoppers add items to cart but never complete checkout. Without automated recovery, those sales are gone.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">&#128176;</div>
+          <h3>Low Average Order Value</h3>
+          <p>Without order bumps or upsells, you're getting one sale per customer when you could be getting two or three.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">&#128232;</div>
+          <h3>No Post-Purchase Follow-Up</h3>
+          <p>Customers buy once and disappear. Without email automation, you're paying for acquisition with no retention.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="section section--gray" id="how-it-works">
+    <div class="container">
+      <div class="section__header fade-in">
+        <span class="tag">How It Works</span>
+        <h2>Go From Store to Sales Machine in 3 Steps</h2>
+      </div>
+
+      <div class="steps fade-in">
+        <div class="step">
+          <div class="step__number">1</div>
+          <h3>Build Your Funnel</h3>
+          <p>Drag and drop landing pages, optimized checkouts, order bumps, upsells, and thank-you pages on a visual canvas.</p>
+        </div>
+        <div class="step">
+          <div class="step__number">2</div>
+          <h3>Automate Follow-Ups</h3>
+          <p>Set up email sequences that trigger on purchase, cart abandonment, or opt-in — with Mail Mint's visual workflow builder.</p>
+        </div>
+        <div class="step">
+          <div class="step__number">3</div>
+          <h3>Grow Revenue on Autopilot</h3>
+          <p>Track conversions, A/B test every funnel step, and optimize with built-in analytics. Watch your AOV and LTV climb.</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-40 fade-in">
+        <a href="#" class="btn btn--primary btn--lg">
+          Start Free
+          <span class="arrow">&rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="section" id="features">
+    <div class="container">
+
+      <!-- Feature 1: Funnel Builder -->
+      <div class="feature-block fade-in">
+        <div class="feature-block__content">
+          <span class="tag">WPFunnels</span>
+          <h2>Visual Funnel Builder Made for WooCommerce</h2>
+          <p>Plan your entire customer journey on a drag-and-drop canvas. Connect landing pages, checkouts, upsells, and thank-you pages — all without code.</p>
+          <ul class="feature-block__list">
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Pre-built funnel templates for product launches, lead gen, and webinars
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Works with Elementor, Divi, Gutenberg, Bricks, and Oxygen
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Conditional paths based on buyer behavior and cart contents
+            </li>
+          </ul>
+          <a href="wpfunnels.html" class="btn btn--primary">
+            Explore WPFunnels
+            <span class="arrow">&rarr;</span>
+          </a>
+        </div>
+        <div class="feature-block__image">
+          <div class="screenshot-placeholder">
+            [ Visual Funnel Canvas Screenshot ]
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature 2: Revenue Boosters -->
+      <div class="feature-block feature-block--reverse fade-in">
+        <div class="feature-block__content">
+          <span class="tag">Increase AOV</span>
+          <h2>Turn Every Order Into a Bigger Order</h2>
+          <p>Built-in revenue boosters help you increase average order value without acquiring a single new customer.</p>
+          <ul class="feature-block__list">
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Order bump offers displayed right at checkout
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              One-click post-purchase upsells — no re-entering payment info
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Dynamic discounts and automated coupons tied to funnel steps
+            </li>
+          </ul>
+          <a href="wpfunnels.html#upsells" class="btn btn--primary">
+            See Revenue Features
+            <span class="arrow">&rarr;</span>
+          </a>
+        </div>
+        <div class="feature-block__image">
+          <div class="screenshot-placeholder">
+            [ Order Bump & Upsell Screenshot ]
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature 3: Email Automation -->
+      <div class="feature-block fade-in">
+        <div class="feature-block__content">
+          <span class="tag tag--orange">Mail Mint</span>
+          <h2>Email Automation Built for WooCommerce Stores</h2>
+          <p>Trigger automated email campaigns based on what your customers actually do — buy, browse, abandon cart, or opt in.</p>
+          <ul class="feature-block__list">
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Visual automation workflow builder with WooCommerce triggers
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Abandoned cart recovery emails that bring buyers back
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Contact segmentation, lead scoring, and 360&deg; customer profiles
+            </li>
+          </ul>
+          <a href="mail-mint.html" class="btn btn--orange">
+            Explore Mail Mint
+            <span class="arrow">&rarr;</span>
+          </a>
+        </div>
+        <div class="feature-block__image">
+          <div class="screenshot-placeholder">
+            [ Mail Mint Automation Workflow Screenshot ]
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature 4: Analytics -->
+      <div class="feature-block feature-block--reverse fade-in">
+        <div class="feature-block__content">
+          <span class="tag">Optimize</span>
+          <h2>Know Exactly What's Working</h2>
+          <p>Every funnel step tracks traffic, conversions, and revenue. Run A/B tests to find the highest-performing variation.</p>
+          <ul class="feature-block__list">
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Per-step conversion tracking with revenue attribution
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              A/B split testing on any landing page, checkout, or offer
+            </li>
+            <li class="feature-block__list-item">
+              <span class="feature-block__list-icon">&#10003;</span>
+              Funnel-level analytics dashboard with actionable insights
+            </li>
+          </ul>
+          <a href="wpfunnels.html#analytics" class="btn btn--primary">
+            See Analytics
+            <span class="arrow">&rarr;</span>
+          </a>
+        </div>
+        <div class="feature-block__image">
+          <div class="screenshot-placeholder">
+            [ Analytics Dashboard Screenshot ]
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ SOCIAL PROOF ============ -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="section__header fade-in">
+        <span class="tag">Trusted by Store Owners</span>
+        <h2>10,000+ WooCommerce Stores Use WPFunnels</h2>
+      </div>
+
+      <div class="testimonials-grid fade-in">
+        <div class="testimonial">
+          <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial__quote">"I tested several funnel plugins in WordPress and this one is hands down the best. The visual canvas makes building funnels intuitive and fast."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">DW</div>
+            <div>
+              <div class="testimonial__name">Darrel Wilson</div>
+              <div class="testimonial__role">Content Creator</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial__quote">"We built a quick funnel that generated around $10k in a few days with an 11% conversion rate. The results speak for themselves."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">SB</div>
+            <div>
+              <div class="testimonial__name">Simeon Benevrekov</div>
+              <div class="testimonial__role">Digital Marketer</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial__quote">"The visual canvas makes it easy — even non-technical clients can tweak funnels themselves. Perfect for agencies building for clients."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">CL</div>
+            <div>
+              <div class="testimonial__name">Chris Lema</div>
+              <div class="testimonial__role">WordPress Expert</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INTEGRATIONS ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header fade-in">
+        <span class="tag">Integrations</span>
+        <h2>Connects With Your Entire WooCommerce Stack</h2>
+        <p>WPFunnels and Mail Mint integrate with the tools you already use — page builders, CRMs, payment gateways, and more.</p>
+      </div>
+
+      <div class="integrations-grid fade-in">
+        <div class="integration-badge">&#9679; WooCommerce</div>
+        <div class="integration-badge">&#9679; Elementor</div>
+        <div class="integration-badge">&#9679; Divi</div>
+        <div class="integration-badge">&#9679; Gutenberg</div>
+        <div class="integration-badge">&#9679; Bricks</div>
+        <div class="integration-badge">&#9679; Oxygen</div>
+        <div class="integration-badge">&#9679; FluentCRM</div>
+        <div class="integration-badge">&#9679; ActiveCampaign</div>
+        <div class="integration-badge">&#9679; Mailchimp</div>
+        <div class="integration-badge">&#9679; Zapier</div>
+        <div class="integration-badge">&#9679; Stripe</div>
+        <div class="integration-badge">&#9679; PayPal</div>
+        <div class="integration-badge">&#9679; LearnDash</div>
+        <div class="integration-badge">&#9679; TutorLMS</div>
+        <div class="integration-badge">&#9679; WPForms</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TEMPLATES TEASER ============ -->
+  <section class="section section--gray">
+    <div class="container">
+      <div class="highlight-box fade-in">
+        <span class="tag">Templates</span>
+        <h3 class="mt-16">Launch Faster With Ready-Made Funnel Templates</h3>
+        <p>Choose from dozens of conversion-optimized templates for product launches, lead generation, webinars, and seasonal campaigns.</p>
+        <a href="#" class="btn btn--primary">
+          Browse All Templates
+          <span class="arrow">&rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="section section--purple">
+    <div class="container">
+      <div class="cta-section">
+        <h2>Start Selling More From Your WooCommerce Store</h2>
+        <p style="color: rgba(255,255,255,0.8); max-width: 550px; margin: 0 auto 32px;">
+          Free version available on WordPress.org. Pro unlocks unlimited funnels, upsells, A/B testing, and priority support.
+        </p>
+        <div class="btn-group" style="justify-content: center;">
+          <a href="#" class="btn btn--white btn--lg">
+            Start Free
+            <span class="arrow">&rarr;</span>
+          </a>
+          <a href="#" class="btn btn--ghost btn--lg" style="color: rgba(255,255,255,0.9); border: 2px solid rgba(255,255,255,0.3);">
+            View Pricing
+          </a>
+        </div>
+        <div class="cta-trust mt-24" style="color: rgba(255,255,255,0.7);">
+          <span class="cta-trust__item"><span class="cta-trust__check">&#10003;</span> 15-day money-back guarantee</span>
+          <span class="cta-trust__item"><span class="cta-trust__check">&#10003;</span> No credit card for free version</span>
+          <span class="cta-trust__item"><span class="cta-trust__check">&#10003;</span> Cancel anytime</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="footer__logo-icon">W</span>
+            WPFunnels
+          </div>
+          <p>The complete funnel and email automation suite built specifically for WooCommerce store owners.</p>
+        </div>
+
+        <div class="footer__col">
+          <h4>Product</h4>
+          <a href="wpfunnels.html">WPFunnels</a>
+          <a href="mail-mint.html">Mail Mint</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Templates</a>
+          <a href="#">Integrations</a>
+        </div>
+
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <a href="#">Documentation</a>
+          <a href="#">Blog</a>
+          <a href="#">Video Tutorials</a>
+          <a href="#">Changelog</a>
+          <a href="#">Roadmap</a>
+        </div>
+
+        <div class="footer__col">
+          <h4>Company</h4>
+          <a href="#">Contact Us</a>
+          <a href="#">Affiliate Program</a>
+          <a href="#">Community</a>
+          <a href="#">Support</a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>&copy; 2026 WPFunnels. All rights reserved.</span>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
